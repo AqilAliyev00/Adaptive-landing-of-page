@@ -81,11 +81,16 @@ body {
     width: 182px;
     height: 182px;
   }
-
+  .left-footer {
+    display: none;
+  }
   .left-footer img {
     display: none;
   }
-
+  .right-footer {
+    display: flex;
+    justify-content: center;
+  }
   .right-footer .one {
     width: 87px;
   }
